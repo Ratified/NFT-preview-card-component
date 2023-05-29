@@ -79,6 +79,7 @@ body{
 
 h1{
     color: var(--White);
+    font-size: 1.5rem;
 }
 
 .par{
@@ -117,7 +118,7 @@ h1{
 }
 
 .jules > img{
-    width: 60px;
+    width: 40px;
     border-radius: 50%;
     border: 1px solid var(--White);
 }
