@@ -33,13 +33,13 @@ Implemented media queries to ensure responsiveness on different screen sizes.
 ## Lessons Learned
 Through this project, I gained experience and knowledge in the following areas:
 
-**.Building responsive web components.
+**.Building responsive web components.**
 
-.Applying CSS styles to achieve a specific design.
+**.Applying CSS styles to achieve a specific design.**
 
-.Using media queries to create a responsive layout.
+**.Using media queries to create a responsive layout.**
 
-.Implementing hover effects to enhance interactivity.
+**.Implementing hover effects to enhance interactivity.**
 
 
 ## How to Use
