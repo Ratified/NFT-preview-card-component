@@ -1,0 +1,127 @@
+/* Fonts Used */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset CSS */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img, video, canvas, svg{
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    overflow-wrap: break-word;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* General Styling */
+:root{
+    /* Primary */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+    --Very-dark-blue-main-bg : hsl(217, 54%, 11%); /* (main BG) */
+    --Very-dark-blue-card-bg : hsl(216, 50%, 16%); /* (card BG) */
+    --Very-dark-blue-line : hsl(215, 32%, 27%); /* (line) */
+    --White: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --ff-main: 'Outfit', sans-serif;
+
+    --content-padding: 1.5rem;
+    --content-gap: 1.5rem;
+    --border-radius: 1rem;
+}
+
+
+body{
+    background-color: var(--Very-dark-blue-main-bg);
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--ff-main);
+    /* color: var(--White); */
+}
+
+.card{
+    background-color: var(--Very-dark-blue-card-bg);
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: var(--content-padding);
+    border-radius: var(--border-radius);
+    font-size: 1.125rem;
+
+    display: grid;
+    gap: var(--content-gap);
+}
+
+.equilibrium{
+    border-radius: var(--border-radius);
+}
+
+h1{
+    color: var(--White);
+}
+
+.par{
+    color: var(--Soft-blue);
+}
+
+.days-eth{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.days-eth::after{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid var(--Very-dark-blue-line);
+}
+
+.eth, .days{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.eth__text{
+    color: var(--Cyan);
+}
+
+.jules{
+    display: flex;
+    gap: var(--content-gap);
+    align-items: center;
+}
+
+.jules > img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid var(--White);
+}
+
+.Wyvern{
+    color: var(--White);
+}
