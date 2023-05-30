@@ -82,6 +82,12 @@ h1{
     font-size: 1.5rem;
 }
 
+h1:hover, h1:focus{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+
 .par{
     color: var(--Soft-blue);
 }
@@ -125,4 +131,9 @@ h1{
 
 .Wyvern{
     color: var(--White);
+}
+
+.Wyvern:hover{
+    cursor: pointer;
+    color: var(--Cyan);
 }
